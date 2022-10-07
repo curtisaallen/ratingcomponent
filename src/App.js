@@ -3,6 +3,8 @@ import './App.css';
 import Home from "./components/Home";
 import Thanks from "./components/Thanks";
 
+
+
 function App() {
   const [rating] = useState([1,2,3,4,5]);
   const [rate, setRate] = useState('');
