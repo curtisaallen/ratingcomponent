@@ -3,8 +3,6 @@ import './App.css';
 import Home from "./components/Home";
 import Thanks from "./components/Thanks";
 
-
-
 function App() {
   const [rating] = useState([1,2,3,4,5]);
   const [rate, setRate] = useState('');
@@ -13,7 +11,6 @@ function App() {
     setRate(num)
   }
   function submitForm() {
-    alert('Submit form')
     if(rate === '') {
       alert('Please select a rating')
     } else {
